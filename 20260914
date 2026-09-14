@@ -1,0 +1,82 @@
+"num=200
+
+
+i=0
+while i<17:
+
+    print(num)
+    num+=50
+    
+    i+=1"
+"size=""tall""
+tumbler=False
+member=False
+
+if size==""tall"":
+    price=4500
+
+if size==""grande"":
+    price=5000
+
+if tumbler==True:
+    price-=300
+
+else:
+    if member==True:
+        price*=0.9
+
+print(price)"
+"weight=15
+area=""normal""
+fee=3000
+
+if weight>20:
+    print(""reject"")
+
+elif weight>5:
+    fee=5000
+    if area==""island"":
+        fee==fee+3000
+
+print(fee)"
+
+"overdue=5
+count=2
+
+if overdue>=3:
+    print(""banned"")
+else:
+    print(""pay first"")
+
+if overdue==0:
+    if count==5:
+        print(""limit"")
+    else:
+        print(""ok"")"
+"minute=287
+
+car=""normal""
+
+
+
+if minute<=30:
+
+    print(""free"")
+
+
+
+elif minute>30:
+
+    print(100*(minute-30))
+
+
+
+elif minute>30 and car==""small"":
+
+    print(100*(minute-30)//2)
+
+
+
+else:
+
+    print(10000)"
