@@ -1,0 +1,12 @@
+
+def with_tax(price):
+  return price+price*0.1
+
+def show_tax(price):
+  print(price+price*0.1)
+
+x=with_tax(1000)
+y=show_tax(1000)
+
+print(x)
+print(y)
