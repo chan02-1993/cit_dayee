@@ -1,0 +1,71 @@
+"nums = [4, 8, 15, 16, 23, 42] 
+
+for i in range(len(nums)):
+  if nums[i]==16:
+    print(i)"
+"scores = [88, 72, 95, 61, 83, 49, 90]
+count=0
+
+for i in range(len(scores)):
+  if scores[i]<=80 and scores[i]<=90:
+    count+=1
+
+print(count)"
+"temps = [2, -4, 7, -1, -8, 5, 0]
+count=0
+count2=0
+
+for i in range(len(numbers)):
+  if temps[i]<0:
+    count+=1
+  elif temps[i]>0:
+    count2+=1
+
+print(""영하의 날의 개수:"",count)
+print(""영상의 날의 개수:"",count2)"
+"numbers = [3, 8, 11, 14, 17, 20, 25]
+count=0
+
+for i in range(len(numbers)):
+  if numbers[i]%2==0:
+    count+=1
+
+print(count)"
+"temps = [-3, 5, 0, -7, 2, -1]
+val=0
+
+for i in range(len(temps)):
+  if temps[i]<0:
+    val+=1
+
+print(val)"
+"dust = [45, 80, 160, 210, 90, 175, 30]
+count_dust = 0
+for d in dust:
+  if d > 150:
+    count_dust += 1
+print(""150을 넘긴 미세먼지 수:"", count_dust)"
+"cart=[12000, 8000, 30000, 5000]
+total_price=0
+
+for i in range(4):
+  total_price+=cart[i]
+if total_price<=50000:
+  
+else
+  total_price+=3000"
+"scores = [88, 92, 79, 95, 63]
+count=0
+
+for i in range(len(scores)):
+  if scores[i]>=70:
+    count+=1
+
+print(count)"
+"scores = [88, 92, 79, 95, 63] 
+num=0
+
+for i in range(5):
+  num+=scores[i]
+
+print(num/len(scores))"
