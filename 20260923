@@ -1,0 +1,81 @@
+"def by_two(n):
+  if n<=0:
+    return
+  print(n)
+  by_two(n-2)
+
+by_two(9)"
+"def stars(n):
+  if n<=0:
+    return 
+  print(""*"")
+  stars(n-1)
+
+stars(3)"
+"def countdown(n):
+  if n>0:
+      print(n)
+      countdown(n-1)
+
+countdown(3)"
+"def echo(n):
+  print(n)
+  if n>0:
+    echo(0)
+
+echo(5)"
+"def check(n):
+  if n<=0:
+    print(""멈춤"")
+    return
+  else:
+    print(n)
+
+check(4)
+check(0)"
+"def count1():
+  print(1)
+
+def count2():
+  print(2)
+  count1()
+
+def count3():
+  print(3)
+  count2()
+
+count3()"
+"def inner():
+  print(""안쪽"")
+def outer():
+  print(""시작"")
+  inner()
+  print(""끝"")
+
+outer()"
+"def b():
+  print(""B"")
+def a():
+  print(""A"")
+  b()"
+"def by_two(n):
+  if n<=0:
+    return
+  print(n)
+  by_two(n-2)
+
+by_two(9)"
+"def stars(n):
+  if n==0:
+    return
+  print(""*"")
+  stars(n-1)
+
+stars(3)"
+"def countdown(n):
+  if n<=0:
+    return
+  print(n)
+  countdown(n-1)
+
+countdown(3)"
